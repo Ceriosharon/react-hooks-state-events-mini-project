@@ -193,3 +193,51 @@ button.toggle:focus {
     transform: scale(20);
   }
 }
+.categories button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.categories button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task .label {
+  font-weight: bold;
+  color: #555;
+}
+
+.task .delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.new-task-form {
+  margin: 20px 0;
+}
+
+.new-task-form input,
+.new-task-form select {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
